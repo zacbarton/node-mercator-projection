@@ -1,0 +1,24 @@
+{
+  "name": "mercator-projection",
+  "description": "Translate latitude and longitude values into 'world' coordinates as used by the Google Map API.",
+  "version": "0.0.2",
+  "author": {
+    "name": "Google"
+  },
+  "scripts": {
+  	"pretest": "npm install mocha should",
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zacbarton/node-mercator-projection"
+  },
+  "keywords": [
+    "mercator"
+    , "projection"
+    , "map"
+    , "google"
+    , "googlemaps"
+    , "transformations"
+  ]
+}
